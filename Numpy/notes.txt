@@ -1,0 +1,48 @@
+- ndarray to niczym n-dimensional array
+
+- indexujemy w jednym[] zamiast w kilku
+
+- atrybut shape zwraca ile jest obiektow w liscie, ile w tej liscie ktora znalezlismy i tak dalej
+
+- size zwraca kazda ilosc wszystkich informacji; ilosc, nie rozmiar
+
+- w listach mozna miec kilka typow danych, jednakze w numpy musza miec ten sam typ, albo zmieni wszystko w string
+
+- ndmim to atrybut zwracajacy liczbe of dimenisons
+
+- atrybut data zwraca memory location of data
+
+- dodawac elementy mozna za pomoca np.append(), zwraca to array ale cos mi w tym nie pasuje bo jakby ignoruje juz neiktore
+obiekty w samym array poza naznaczonym. dobra niewazne, indexowalem jeden obiekt z array i dodawalem do niego
+
+- odejmujemy poprzez np.delete(), podobnie jak wyzej zwraca tylko, odejmujemy obiekt indexowany w drugim argumencie
+
+- np.zerros(shape, dtype,order) tworzy array pelna zer o podanych parametrach, Sa jeszcze np ones
+
+- np.arange(int) tworzy array liczb z range funkcji
+
+- np.linspace(start, stop, how many) tworzy array z poczatku i konca, ktora ma tyle elementow ile podales w how much
+
+- np.full(shape, item) tworzy array o podanym shape wypelniony obiektami item
+
+- np.eye(number) tworzy tzw matrix gdzie obiekt 1 jest przesuwany o jeden w kazdej kolejnej array
+                                    [[1. 0. 0.]
+                                     [0. 1. 0.]
+                                     [0. 0. 1.]]
+
+- np.random.random(shape) tworzy array o podanej shape lecz o randomowych wartosciach float 0-1
+
+- dzialaja dzialania dla dwoch array, wtedy np pierwsze dane sie dodaja drugie sie
+  dodaja itd; lub za pomoca np.add(arr1,arr2), tyle ze wtedy zwraca array
+                                add(), subtract(),
+                                multiply(),sqrt()
+
+- arr1.dot(arr2), to jest iloczyn skalarny/dot product, idk jeszcze co to jest ; ewentualnie mozna to zrobic za pomoca
+  np.dot(arr1,arr2)
+
+- arr1.T zmienia row z collumna. tzw Transpose
+
+- niektore funkcje maja argument axis=0 ktore moga specyfikowac ktore axis chcesz np dodac, odjac etc
+
+
+
